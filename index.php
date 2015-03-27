@@ -58,11 +58,8 @@ function DaysLeft($todaysDate, $finalDate) {
 // Jakes sloppy code
 
 
-	if(date("G") > 18) {
-		echo (128 - (date("z") + 1)) . " DAYS LEFT UNTIL FINALS ARE OVER! <br>";
-	} else {
-		echo (128 - (date("z"))) . " DAYS LEFT UNTIL FINALS ARE OVER! <br>";
-	}
+echo (128 - (date("z")+1)) . " DAYS LEFT UNTIL FINALS ARE OVER! <br>";
+
 
 
 	
